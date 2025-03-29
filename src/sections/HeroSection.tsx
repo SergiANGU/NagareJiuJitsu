@@ -12,24 +12,30 @@ export function HeroSection() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center text-center py-24 px-4 bg-[#FAF9F6] text-[#1F1F1F]">
-      <motion.h2
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="text-4xl md:text-5xl font-extrabold mb-4"
-      >
-        Aprende Jiu-Jitsu con nosotros
-      </motion.h2>
-      <p className="text-lg md:text-xl max-w-xl mb-6">
-        Entrenamientos para todos los niveles. Ven a probar sin compromiso.
-      </p>
-      <Button
-       className="bg-[#FFA552] text-[#1F1F1F] hover:bg-[#FF8C42]"
-      onClick={scrollToContact}>
-        Preguntanos lo que quieras
-      </Button>
+    <section className="flex flex-col items-center justify-between text-center py-50 px-4 bg-cover bg-[#FAF9F6] text-[#FFA552]"
+      style={{ backgroundImage: "url('src/assets/HeroBanner.jpg')" }}>
+      
+      <div className="text-center mb-10"> {/* Agregamos margen inferior */}
+        <motion.h2
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-4xl md:text-5xl font-extrabold drop-shadow-xl"
+        >
+          Aprende Jiu-Jitsu con nosotros
+        </motion.h2>
+      </div>
+  
+      <div className="flex justify-center">
+        <Button
+          className="bg-[#FFA552] text-[#1F1F1F] hover:bg-[#FF8C42]"
+          onClick={scrollToContact}
+        >
+          Pregúntanos lo que quieras
+        </Button>
+      </div>
     </section>
   );
+  
 }
 
