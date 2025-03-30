@@ -1,4 +1,4 @@
-import {React,  useEffect } from "react";
+import { useEffect } from "react";
 import { Menu } from "lucide-react";
 import { HeroSection } from "@/sections/HeroSection"
 import { AboutSection } from "@/sections/AboutSection"
@@ -9,7 +9,6 @@ import { MapSection } from "@/sections/MapSection"
 import { FooterSection } from "@/sections/FooterSection"
 import { ContactSection } from "@/sections/ContactSection"
 import  NagareNombre from '@/assets/NagareNombre.svg';
-import  NagareLogo from '@/assets/LogoFondoTransparent.svg';
 
 
 

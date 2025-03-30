@@ -1,6 +1,4 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
 import { Phone, Instagram } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
