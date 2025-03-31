@@ -30,7 +30,7 @@ function App() {
         <header
           className="flex items-center justify-between p-4 shadow-md sticky top-1 z-6 bg-[#FFA552] text-[#2C2C2C] rounded-lg">
              <img src={NagareNombre} alt="Logo Nagare" className="h-10 w-auto transform scale-450 origin-left" />
-          <nav className="md:flex gap-6 text-md">
+          <nav className="hidden md:flex gap-6 text-md">
             <a href="#about">Sobre Nosotros</a>
             <a href="#classes">Clases</a>
             <a href="#faq">FAQ</a>
