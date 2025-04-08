@@ -11,7 +11,7 @@ export function FAQSection() {
             </div>
             <div>
               <h4 className="font-semibold">¿Qué ropa necesito para entrenar?</h4>
-              <p className="text-gray-700">Podés venir con ropa deportiva cómoda. Si tenés gi, mejor, pero no es obligatorio.</p>
+              <p className="text-gray-700">Podeis venir con ropa deportiva cómoda. El gi, aunque mejor, no es obligatorio.</p>
             </div>
             <div>
               <h4 className="font-semibold">¿Puedo probar una clase gratis?</h4>
