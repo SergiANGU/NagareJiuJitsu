@@ -9,10 +9,11 @@ import { FooterSection } from "@/sections/FooterSection"
 import { ContactSection } from "@/sections/ContactSection"
 import  NagareNombre from '@/assets/NagareNombre.svg';
 import { SpeedInsights } from "@vercel/speed-insights/react"
-
+import { Analytics } from "@vercel/analytics/react";
 
 
 import './App.css'
+
 
 
 
@@ -26,6 +27,7 @@ function App() {
     <>
       <main className="bg-[#FAF9F6]" >
       <SpeedInsights/>
+      <Analytics />
         {/* Header */}
         <header
           className="flex items-center justify-between p-2 shadow-md sticky top-1 z-6 bg-[#FFA552] text-[#2C2C2C] rounded-lg">
