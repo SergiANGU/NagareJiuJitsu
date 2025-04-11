@@ -1,5 +1,5 @@
 
-export function AboutSection() {
+export default function AboutSection() {
     return (
         <section id="about" className="py-20 px-4 sm:px-8 bg-[#F0EDE7] text-[#2C2C2C]">
         <h3 className="text-3xl font-bold mb-4">Sobre Nosotros</h3>

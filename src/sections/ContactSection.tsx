@@ -12,7 +12,7 @@ const contactSchema = z.object({
   
   type ContactForm = z.infer<typeof contactSchema>;
 
-export function ContactSection() {
+export default function ContactSection() {
 
     const {
         register,

@@ -1,6 +1,6 @@
 import { MapLocation } from "@/components/MapLocation";
 
-export function MapSection() {
+export default function MapSection() {
     return (
         <section id="mapa" className="px-4 sm:px-8 pb-20 bg-[#F0EDE7] text-[#2C2C2C]">
         <div className="max-w-4xl mx-auto">

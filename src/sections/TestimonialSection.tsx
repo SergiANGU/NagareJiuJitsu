@@ -1,5 +1,5 @@
 
-export function TestimonialsSection() {
+export default function TestimonialsSection() {
   return (
     <section id="testimonios" className="py-20 px-4 sm:px-8 bg-[#FAF9F6] text-[#1F1F1F]">
       <div className="max-w-4xl mx-auto">

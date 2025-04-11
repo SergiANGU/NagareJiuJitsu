@@ -1,9 +1,9 @@
 // src/sections/Hero.tsx
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/HeroBanner.jpg"
+import heroImage from "@/assets/HeroBanner_optimized.webp"
 
-export function HeroSection() {
+export default function HeroSection() {
 
   const scrollToContact = () => {
     const section = document.getElementById("contact");
