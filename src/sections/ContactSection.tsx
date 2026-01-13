@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, Instagram } from "lucide-react";
+import { Phone, Instagram, Mail, MessageCircle } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -57,17 +57,34 @@ export default function ContactSection() {
             <Button className="bg-[#FFA552] text-[#1F1F1F] hover:bg-[#FF8C42]" type="submit">Enviar mensaje</Button>
           </form>
 
-          <div className="mt-6 flex flex-col gap-4">
-            <Button variant="outline"  className="bg-[#FFA552] text-[#1F1F1F] hover:bg-[#FF8C42]">
-              <Phone size={20} /> Llamar al 123 456 789
-            </Button>
+          <div className="mt-8 flex flex-col gap-4">
+            <a
+              href="https://wa.me/34650270270"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm text-[#4B4B4B] hover:text-[#FFA552] transition-colors"
+            >
+              <MessageCircle size={18} className="text-[#25D366]" /> WhatsApp: 650 270 270
+            </a>
+            <a
+              href="tel:+34650270270"
+              className="inline-flex items-center gap-2 text-sm text-[#4B4B4B] hover:text-[#FFA552] transition-colors"
+            >
+              <Phone size={18} /> Llamar: 650 270 270
+            </a>
             <a
               href="https://www.instagram.com/nagarejiujitsu"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm text-blue-600 hover:underline"
+              className="inline-flex items-center gap-2 text-sm text-[#4B4B4B] hover:text-[#FFA552] transition-colors"
             >
               <Instagram size={18} /> Seguinos en Instagram
+            </a>
+            <a
+              href="mailto:info@nagarejiujitsu.com"
+              className="inline-flex items-center gap-2 text-sm text-[#4B4B4B] hover:text-[#FFA552] transition-colors"
+            >
+              <Mail size={18} /> Escribinos por Mail
             </a>
           </div>
         </div>

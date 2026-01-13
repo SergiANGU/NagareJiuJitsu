@@ -11,11 +11,15 @@ export default function FAQSection() {
             </div>
             <div>
               <h4 className="font-semibold">¿Qué ropa necesito para entrenar?</h4>
-              <p className="text-gray-700">Podeis venir con ropa deportiva cómoda.</p>
+              <p className="text-gray-700">Venid con ropa deportiva cómoda.</p>
             </div>
             <div>
               <h4 className="font-semibold">¿Puedo probar una clase gratis?</h4>
-              <p className="text-gray-700">¡Sí! Ven a probar sin compromiso.</p>
+              <p className="text-gray-700">¡Sí! Ven a probar varios entrenos sin compromiso.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold">¿Voy a tener cobertura médica?</h4>
+              <p className="text-gray-700">Sí, la federación cuenta con un seguro médico para los federados.</p>
             </div>
           </div>
         </div>
