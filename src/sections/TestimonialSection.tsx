@@ -2,7 +2,7 @@
 export default function TestimonialsSection() {
   return (
     <section id="testimonios" className="py-20 px-4 sm:px-8 bg-[#FAF9F6] text-[#1F1F1F]">
-      <div className="max-w-6xl mx-auto">
+      <div className="w-full mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center text-[#1F1F1F]">Nuestros profesores</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {/* Carta de Axel */}

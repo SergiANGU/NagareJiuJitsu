@@ -27,7 +27,7 @@ export default function ContactSection() {
 
     return (
         <section id="contact" style={{ backgroundColor: "#FAF9F6", color: "#4B4B4B" }} className="py-20 px-4 sm:px-8">
-        <div className="max-w-2xl mx-auto">
+        <div className="w-full mx-auto">
           <h3 className="text-3xl font-bold mb-4">Contacto</h3>
           <p className="mb-6">¿Tienes dudas? Escribinos o llamanos:</p>
 

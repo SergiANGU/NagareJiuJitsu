@@ -25,7 +25,7 @@ function App() {
         {process.env.NODE_ENV === 'production' && <SpeedInsights />}
         {process.env.NODE_ENV === 'production' && <Analytics />}
         {/* Header */}
-        <header className="flex items-center justify-between p-2 shadow-md sticky top-1 z-6 bg-[#FFA552] text-[#2C2C2C] rounded-lg">
+        <header className="flex items-center justify-between p-2 shadow-md sticky top-0 z-10 bg-[#FFA552] text-[#2C2C2C]">
         <img src={NagareNombre} alt="Logo Nagare" width={160} height={40} loading="lazy" className="h-10 w-auto transform scale-450 origin-left" />
           <nav className="hidden md:flex gap-6 text-md">
             <a href="#about">Sobre Nosotros</a>
