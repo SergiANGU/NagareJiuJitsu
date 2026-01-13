@@ -33,7 +33,7 @@ export default function HeroSection() {
           className="bg-[#FFA552] text-[#1F1F1F] hover:bg-[#FF8C42]"
           onClick={scrollToContact}
         >
-          Pregúntanos lo que quieras
+          Pregunta como
         </Button>
       </div>
     </section>
