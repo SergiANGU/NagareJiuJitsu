@@ -2,8 +2,10 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/HeroBanner_optimized.webp"
+import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
+  const { t } = useTranslation();
 
   const scrollToContact = () => {
     const section = document.getElementById("contact");
@@ -24,7 +26,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-5xl font-extrabold drop-shadow-xl"
         >
-          Aprende Jiu-Jitsu con nosotros
+          {t('hero.title')}
         </motion.h2>
       </div>
 
@@ -33,7 +35,7 @@ export default function HeroSection() {
           className="bg-[#FFA552] text-[#1F1F1F] hover:bg-[#FF8C42]"
           onClick={scrollToContact}
         >
-          Pregunta como
+          {t('hero.button')}
         </Button>
       </div>
     </section>

@@ -1,10 +1,12 @@
 import { MapLocation } from "@/components/MapLocation";
+import { useTranslation } from "react-i18next";
 
 export default function MapSection() {
+    const { t } = useTranslation();
     return (
         <section id="mapa" className="px-4 sm:px-8 pb-20 bg-[#F0EDE7] text-[#2C2C2C]">
         <div className="w-full mx-auto">
-          <h3 className="text-3xl font-bold mb-4">Ven a visitarnos</h3>
+          <h3 className="text-3xl font-bold mb-4">{t('map.title')}</h3>
 
           <MapLocation
             title="Sants"
