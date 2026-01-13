@@ -10,13 +10,13 @@ export default function TestimonialsSection() {
             <h3 className="text-3xl font-bold mb-6 text-center text-[#1F1F1F]">Axel</h3>
             <div className="flex-grow flex justify-center items-center">
               <div className="text-lg text-gray-700 text-center leading-relaxed space-y-2">
-                <p>Jiu jitsu: 25 años de experiencia</p>
+                <p>Jiu-Jitsu: 25 años de experiencia</p>
                 <p>Judo: 35 años de experiencia</p>
-                <p>4º dan de jiu jitsu tradicional</p>
-                <p>4º dan de judo</p>
-                <p>Marrón brazilean</p>
+                <p>4.º DAN de Jiu-Jitsu tradicional</p>
+                <p>4.º DAN de Judo</p>
+                <p>Cinturón marrón de Brazilian Jiu-Jitsu</p>
                 <p>Varias medallas nacionales</p>
-                <p>Técnico espíritu nivel 3 de jiu y judo y profesor de brazilian</p>
+                <p>Técnico deportivo nivel 3 de Jiu-Jitsu y Judo y profesor de Brazilian Jiu-Jitsu</p>
               </div>
             </div>
           </div>
@@ -26,8 +26,8 @@ export default function TestimonialsSection() {
             <h3 className="text-3xl font-bold mb-6 text-center text-[#1F1F1F]">Paula</h3>
             <div className="flex-grow flex justify-center items-center">
               <div className="text-lg text-gray-700 text-center leading-relaxed space-y-2">
-                <p>1r dan de jiu jitsu</p>
-                <p>Técnica deportiva nivel 1 de jiu jitsu</p>
+                <p>1.er DAN de Jiu-Jitsu</p>
+                <p>Técnica deportiva nivel 1 de Jiu-Jitsu</p>
                 <p>Varias medallas nacionales</p>
               </div>
             </div>

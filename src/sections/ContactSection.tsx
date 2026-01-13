@@ -29,7 +29,7 @@ export default function ContactSection() {
         <section id="contact" style={{ backgroundColor: "#FAF9F6", color: "#4B4B4B" }} className="py-20 px-4 sm:px-8">
         <div className="w-full mx-auto">
           <h3 className="text-3xl font-bold mb-4">Contacto</h3>
-          <p className="mb-6">¿Tienes dudas? Escribinos o llamanos:</p>
+          <p className="mb-6">¿Tienes dudas? Escríbenos o llámanos:</p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <input
@@ -77,14 +77,16 @@ export default function ContactSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm text-[#4B4B4B] hover:text-[#FFA552] transition-colors"
+              aria-label="Síguenos en Instagram"
             >
-              <Instagram size={18} /> Seguinos en Instagram
+              <Instagram size={18} /> Síguenos en Instagram
             </a>
             <a
               href="mailto:info@nagarejiujitsu.com"
               className="inline-flex items-center gap-2 text-sm text-[#4B4B4B] hover:text-[#FFA552] transition-colors"
+              aria-label="Escríbenos por correo electrónico"
             >
-              <Mail size={18} /> Escribinos por Mail
+              <Mail size={18} /> Escríbenos por correo electrónico
             </a>
           </div>
         </div>
