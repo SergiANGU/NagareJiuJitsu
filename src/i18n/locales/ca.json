@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Sobre Nosaltres",
+    "classes": "Classes",
+    "faq": "FAQ",
+    "contact": "Contacte"
+  },
+  "hero": {
+    "title": "Aprèn Jiu-Jitsu amb nosaltres",
+    "button": "Pregunta com"
+  },
+  "about": {
+    "title": "Sobre Nosaltres",
+    "p1": "Brazilian Jiu-Jitsu i Fighting en la seva vessant esportiva.",
+    "p2": "Tant competició com recreatiu."
+  },
+  "mission": {
+    "title": "Missió i Visió",
+    "vision": "La nostra visió és...",
+    "mission": "La nostra missió és..."
+  },
+  "classes": {
+    "title": "Classes",
+    "sants": "Sants: Dilluns a Divendres 13:00 - 14:00 i 20:30 - 22:00",
+    "horta": "Horta - Guinardó: Dimarts i Dijous 20:00 - 21:30"
+  },
+  "map": {
+    "title": "Vine a visitar-nos"
+  },
+  "testimonials": {
+    "title": "Els nostres professors",
+    "axel": {
+      "exp_jj": "Jiu-Jitsu: 25 anys d'experiència",
+      "exp_judo": "Judo: 35 anys d'experiència",
+      "dan_jj": "4t DAN de Jiu-Jitsu tradicional",
+      "dan_judo": "4t DAN de Judo",
+      "bjj": "Cinturó marró de Brazilian Jiu-Jitsu",
+      "medals": "Diverses medalles nacionals",
+      "coach": "Tècnic esportiu nivell 3 de Jiu-Jitsu i Judo i professor de Brazilian Jiu-Jitsu"
+    },
+    "paula": {
+      "dan": "1r DAN de Jiu-Jitsu",
+      "coach": "Tècnica esportiva nivell 1 de Jiu-Jitsu",
+      "medals": "Diverses medalles nacionals"
+    }
+  },
+  "faq": {
+    "title": "Preguntes Freqüents",
+    "q1": "Necessito experiència prèvia?",
+    "a1": "No, les nostres classes estan dissenyades per a tots els nivells, incloent-hi principiants.",
+    "q2": "Quina roba necessito per entrenar?",
+    "a2": "Vine amb roba esportiva còmoda.",
+    "q3": "Puc provar una classe gratis?",
+    "a3": "Sí! Vine a provar diversos entrenaments sense compromís.",
+    "q4": "Tindré cobertura mèdica?",
+    "a4": "Sí, la federació compta amb una assegurança mèdica per als federats."
+  },
+  "contact": {
+    "title": "Contacte",
+    "subtitle": "Tens dubtes? Escriu-nos o truca'ns:",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Missatge",
+      "submit": "Enviar missatge",
+      "errors": {
+        "name": "Nom requerit",
+        "email": "Email invàlid",
+        "message": "Missatge massa curt"
+      }
+    },
+    "whatsapp": "WhatsApp: 650 270 270",
+    "call": "Trucar: 650 270 270",
+    "instagram": "Segueix-nos a Instagram",
+    "mail": "Escriu-nos per correu electrònic"
+  },
+  "common": {
+    "loading": "Carregant secció..."
+  }
+}

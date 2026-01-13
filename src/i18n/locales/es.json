@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Sobre Nosotros",
+    "classes": "Clases",
+    "faq": "FAQ",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Aprende Jiu-Jitsu con nosotros",
+    "button": "Pregunta como"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "p1": "Brazilian Jiu-Jitsu y Fighting en su vertiente deportiva.",
+    "p2": "Tanto competición como recreativo."
+  },
+  "mission": {
+    "title": "Misión y Visión",
+    "vision": "Nuestra visión es...",
+    "mission": "Nuestra misión es..."
+  },
+  "classes": {
+    "title": "Clases",
+    "sants": "Sants: Lunes a Viernes 13:00 - 14:00 y 20:30 - 22:00",
+    "horta": "Horta - Guinardó: Martes y Jueves 20:00 - 21:30"
+  },
+  "map": {
+    "title": "Ven a visitarnos"
+  },
+  "testimonials": {
+    "title": "Nuestros profesores",
+    "axel": {
+      "exp_jj": "Jiu-Jitsu: 25 años de experiencia",
+      "exp_judo": "Judo: 35 años de experiencia",
+      "dan_jj": "4.º DAN de Jiu-Jitsu tradicional",
+      "dan_judo": "4.º DAN de Judo",
+      "bjj": "Cinturón marrón de Brazilian Jiu-Jitsu",
+      "medals": "Varias medallas nacionales",
+      "coach": "Técnico deportivo nivel 3 de Jiu-Jitsu y Judo y profesor de Brazilian Jiu-Jitsu"
+    },
+    "paula": {
+      "dan": "1.er DAN de Jiu-Jitsu",
+      "coach": "Técnica deportiva nivel 1 de Jiu-Jitsu",
+      "medals": "Varias medallas nacionales"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "q1": "¿Necesito experiencia previa?",
+    "a1": "No, nuestras clases están diseñadas para todos los niveles, incluyendo principiantes.",
+    "q2": "¿Qué ropa necesito para entrenar?",
+    "a2": "Ven con ropa deportiva cómoda.",
+    "q3": "¿Puedo probar una clase gratis?",
+    "a3": "¡Sí! Ven a probar varios entrenamientos sin compromiso.",
+    "q4": "¿Voy a tener cobertura médica?",
+    "a4": "Sí, la federación cuenta con un seguro médico para los federados."
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes dudas? Escríbenos o llámanos:",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar mensaje",
+      "errors": {
+        "name": "Nombre requerido",
+        "email": "Email inválido",
+        "message": "Mensaje muy corto"
+      }
+    },
+    "whatsapp": "WhatsApp: 650 270 270",
+    "call": "Llamar: 650 270 270",
+    "instagram": "Síguenos en Instagram",
+    "mail": "Escríbenos por correo electrónico"
+  },
+  "common": {
+    "loading": "Cargando sección..."
+  }
+}

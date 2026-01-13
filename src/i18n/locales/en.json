@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "About Us",
+    "classes": "Classes",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Learn Jiu-Jitsu with us",
+    "button": "Ask us how"
+  },
+  "about": {
+    "title": "About Us",
+    "p1": "Brazilian Jiu-Jitsu and Fighting in its sports aspect.",
+    "p2": "Both competitive and recreational."
+  },
+  "mission": {
+    "title": "Mission and Vision",
+    "vision": "Our vision is...",
+    "mission": "Our mission is..."
+  },
+  "classes": {
+    "title": "Classes",
+    "sants": "Sants: Monday to Friday 13:00 - 14:00 and 20:30 - 22:00",
+    "horta": "Horta - Guinardó: Tuesday and Thursday 20:00 - 21:30"
+  },
+  "map": {
+    "title": "Come visit us"
+  },
+  "testimonials": {
+    "title": "Our teachers",
+    "axel": {
+      "exp_jj": "Jiu-Jitsu: 25 years of experience",
+      "exp_judo": "Judo: 35 years of experience",
+      "dan_jj": "4th DAN of traditional Jiu-Jitsu",
+      "dan_judo": "4th DAN of Judo",
+      "bjj": "Brown belt in Brazilian Jiu-Jitsu",
+      "medals": "Several national medals",
+      "coach": "Level 3 sports technician in Jiu-Jitsu and Judo and Brazilian Jiu-Jitsu teacher"
+    },
+    "paula": {
+      "dan": "1st DAN of Jiu-Jitsu",
+      "coach": "Level 1 sports technician in Jiu-Jitsu",
+      "medals": "Several national medals"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Do I need previous experience?",
+    "a1": "No, our classes are designed for all levels, including beginners.",
+    "q2": "What clothes do I need to train?",
+    "a2": "Come with comfortable sportswear.",
+    "q3": "Can I try a class for free?",
+    "a3": "Yes! Come and try several training sessions without commitment.",
+    "q4": "Will I have medical coverage?",
+    "a4": "Yes, the federation has medical insurance for federated members."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Any questions? Write to us or call us:",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send message",
+      "errors": {
+        "name": "Name required",
+        "email": "Invalid email",
+        "message": "Message too short"
+      }
+    },
+    "whatsapp": "WhatsApp: 650 270 270",
+    "call": "Call: 650 270 270",
+    "instagram": "Follow us on Instagram",
+    "mail": "Email us"
+  },
+  "common": {
+    "loading": "Loading section..."
+  }
+}
