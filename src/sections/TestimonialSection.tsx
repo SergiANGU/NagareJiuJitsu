@@ -2,30 +2,36 @@
 export default function TestimonialsSection() {
   return (
     <section id="testimonios" className="py-20 px-4 sm:px-8 bg-[#FAF9F6] text-[#1F1F1F]">
-      <div className="max-w-4xl mx-auto">
-        <h3 className="text-3xl font-bold mb-8 text-center">Nuestros alumnos</h3>
-        <div className="grid gap-6 md:grid-cols-2">
-          <blockquote className="p-6 border-l-4 border-orange-300 shadow-sm bg-white">
-            <p className="text-lg italic">3r Copa Absoluta Española -69kg 2025</p>
-            <footer className="mt-2 text-md text-gray-600">Marc L.</footer>
-          </blockquote>
-          <blockquote className="p-6 border-l-4 border-orange-300 shadow-sm bg-white">
-            <p className="text-lg italic">Campeona absoluta de España 2022 y 2023</p>
-            <footer className="mt-2 text-md text-gray-600">Nuria A.</footer>
-          </blockquote>
-          <blockquote className="p-6 border-l-4 border-orange-300 shadow-sm bg-white">
-            <p className="text-lg italic">Campeón absoluto de Catalunya 2023</p>
-            <footer className="mt-2 text-md text-gray-600">Sergi A.</footer>
-          </blockquote>
-        </div>
-      </div>
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold mb-12 text-center text-[#1F1F1F]">Nuestros profesores</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Carta de Axel */}
+          <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-100 flex flex-col">
+            <h3 className="text-3xl font-bold mb-6 text-center text-[#1F1F1F]">Axel</h3>
+            <div className="flex-grow flex justify-center items-center">
+              <div className="text-lg text-gray-700 text-center leading-relaxed space-y-2">
+                <p>Jiu jitsu: 25 años de experiencia</p>
+                <p>Judo: 35 años de experiencia</p>
+                <p>4º dan de jiu jitsu tradicional</p>
+                <p>4º dan de judo</p>
+                <p>Marrón brazilean</p>
+                <p>Varias medallas nacionales</p>
+                <p>Técnico espíritu nivel 3 de jiu y judo y profesor de brazilian</p>
+              </div>
+            </div>
+          </div>
 
-      <div className="max-w-4xl mx-auto mt-8">
-        <h3 className="text-3xl font-bold mb-8 text-center">Axel, nuestro sensei</h3>
-        <div className="md:col-span-2 flex justify-center">
-          <p className="text-lg text-gray-700 text-center max-w-xl">
-            Con una trayectoria de 30 años en el mundo del judo y jiujitsu...
-          </p>
+          {/* Carta de Paula */}
+          <div className="bg-white p-8 rounded-2xl shadow-md border border-gray-100 flex flex-col">
+            <h3 className="text-3xl font-bold mb-6 text-center text-[#1F1F1F]">Paula</h3>
+            <div className="flex-grow flex justify-center items-center">
+              <div className="text-lg text-gray-700 text-center leading-relaxed space-y-2">
+                <p>1r dan de jiu jitsu</p>
+                <p>Técnica deportiva nivel 1 de jiu jitsu</p>
+                <p>Varias medallas nacionales</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

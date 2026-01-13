@@ -4,7 +4,7 @@ export default function MapSection() {
     return (
         <section id="mapa" className="px-4 sm:px-8 pb-20 bg-[#F0EDE7] text-[#2C2C2C]">
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold mb-4">¿Dónde vas a entrenar?</h3>
+          <h3 className="text-3xl font-bold mb-4">Ven a visitarnos</h3>
 
           <MapLocation
             title="Sants"
