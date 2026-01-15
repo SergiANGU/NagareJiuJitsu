@@ -1,7 +1,7 @@
 // src/sections/Hero.tsx
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/HeroBanner_optimized.webp"
+import heroImage from "@/assets/nagareBanerGrupal.png"
 import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
@@ -15,7 +15,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-between text-center py-50 px-4 bg-cover bg-[#FAF9F6] text-[#FFA552]"
+    <section className="flex flex-col items-center justify-between text-center py-50 px-4 bg-cover bg-center bg-[#FAF9F6] text-[#FFA552]"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
 
